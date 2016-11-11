@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tmca_wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="TMCA UML Editor" Height="600" Width="800" Icon="/Icon.ico">
+    
+    <DockPanel>
+        <userControls:Menubar DockPanel.Dock="Top"/>
+    </DockPanel>
 </Window>
